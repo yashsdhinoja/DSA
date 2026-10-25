@@ -1,5 +1,7 @@
-import numpy as np
+def factorial_number(num):
+    if num == 0 or num == 1:
+        return 1
+    else:
+        return num * factorial_number(num - 1)
 
-a = array([1,2,3
-           
-           ])
+print(factorial_number(5))
